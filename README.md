@@ -61,7 +61,6 @@ It leverages **Random Forest models** to forecast crime categories and arrest pr
 
 ---
 
-## 🏗️ System Architecture
 
 ## 🏗️ System Architecture
 
@@ -175,4 +174,16 @@ http://localhost:5000
 **Access Dashboard directly:**  
 [![Power BI Dashboard](https://img.shields.io/badge/Power_BI-Dashboard-yellow?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiODdiNzkxMjktN2FhMy00OGZkLWI0ZTUtOTI3MmFiMTk2NWNlIiwidCI6IjkwMWQ5YTk5LTI3NTgtNGM5ZS1iNWM3LTI2MWM2OTIwZmQzNyIsImMiOjl9)
 ## 📁 Project Structure
-<pre> ```text crime-prediction-system/ ├── models/ # ML models and encoders ├── data/ # SQLite database ├── notebooks/ # Jupyter notebooks ├── dashboard/ # Power BI files ├── app.py # Main Flask application ├── check_db.py # Database utilities ├── load_dataset.py # Data loading functions ├── requirements.txt # Python dependencies ├── .gitignore # Git ignore rules └── README.md # Project documentation ``` </pre>
+'''
+crime-prediction-system/
+├── models/           # ML models and encoders
+├── data/             # SQLite database
+├── notebooks/        # Jupyter notebooks
+├── dashboard/        # Power BI files
+├── app.py            # Main Flask application
+├── check_db.py       # Database utilities
+├── load_dataset.py   # Data loading functions
+├── requirements.txt  # Python dependencies
+├── .gitignore        # Git ignore rules
+└── README.md         # Project documentation
+'''
