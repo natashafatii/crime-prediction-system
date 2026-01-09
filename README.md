@@ -147,9 +147,7 @@ python app.py
 ```
 ###2. Access the Web Interface
 
-Open your browser and go to:
 
-http://localhost:5000
 ## 📝 Sample Crime Scenarios
 
 | Scenario   | Expected Output               |
@@ -159,10 +157,7 @@ http://localhost:5000
 | Narcotics | Drug Crime (Medium Risk)      |
 | Burglary  | Property Crime (High Risk)    |
 
-## 📡 API Documentation
 
-**Base URL:**  
-http://localhost:5000
 ## 📊 Power BI Dashboard
 
 - Real-time crime heat maps  
@@ -173,17 +168,42 @@ http://localhost:5000
 
 **Access Dashboard directly:**  
 [![Power BI Dashboard](https://img.shields.io/badge/Power_BI-Dashboard-yellow?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiODdiNzkxMjktN2FhMy00OGZkLWI0ZTUtOTI3MmFiMTk2NWNlIiwidCI6IjkwMWQ5YTk5LTI3NTgtNGM5ZS1iNWM3LTI2MWM2OTIwZmQzNyIsImMiOjl9)
-## 📁 Project Structure
-'''
-crime-prediction-system/
-├── models/           # ML models and encoders
-├── data/             # SQLite database
-├── notebooks/        # Jupyter notebooks
-├── dashboard/        # Power BI files
-├── app.py            # Main Flask application
-├── check_db.py       # Database utilities
-├── load_dataset.py   # Data loading functions
-├── requirements.txt  # Python dependencies
-├── .gitignore        # Git ignore rules
-└── README.md         # Project documentation
-'''
+
+
+---
+
+### 2️⃣ Model Details
+Explain ML model specifics, categories, and feature engineering. Example:
+
+## 🤖 Model Details
+
+- **Algorithm:** Random Forest (multi-target)
+- **Accuracy:** 91.64%
+- **Arrest Prediction Accuracy:** 99.98%
+- **Feature Engineering:** Temporal & location encoding
+- **Serialization:** Joblib
+
+### Crime Categories
+
+| Code | Category        | Risk       |
+|------|----------------|-----------|
+| 0    | Drug Crime      | Medium    |
+| 1    | Other Crime     | Low       |
+| 2    | Property Crime  | Medium    |
+| 3    | Sex Crime       | High      |
+| 4    | Violent Crime   | Critical  |
+
+
+## 🛠️ Technology Stack
+
+- **Backend:** Python 3.9, Flask, Scikit-learn, Pandas, NumPy, Joblib  
+- **Frontend:** HTML5, CSS3, JavaScript ES6  
+- **Database:** SQLite  
+- **Visualization:** Power BI
+## 🔮 Future Enhancements
+
+- Real-time data feeds  
+- User authentication  
+- Cloud deployment (AWS/Azure)  
+- Mobile app interface  
+- Neural network models
