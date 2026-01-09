@@ -119,15 +119,6 @@ venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 ```
-## 🗂️ Model Files
-
-| File | Size | Notes |
-|------|------|-------|
-| `multi_target_rf_model_compatible.pkl` | 478 MB | Main machine learning model |
-| `preprocessor_compatible.pkl` | 17 KB | Preprocessing pipeline |
-| `crime_encoder_compatible.pkl` | 1 KB | Label encoder |
-
-> **Note:** The large model file (`multi_target_rf_model_compatible.pkl`) is hosted externally due to size constraints. Download instructions are provided in the repository setup instructions.
 
 ---
 
