@@ -107,7 +107,7 @@ Before installing, make sure you have the following:
 ### Setup
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/crime-prediction-system.git
+git clone https://https://github.com/natashafatii/crime-prediction-system
 cd crime-prediction-system
 # Create virtual environment
 python -m venv venv
@@ -145,17 +145,6 @@ python check_db.py
 ```bash
 python app.py
 ```
-###2. Access the Web Interface
-
-
-## 📝 Sample Crime Scenarios
-
-| Scenario   | Expected Output               |
-|-----------|-------------------------------|
-| Theft     | Property Crime (Medium Risk)  |
-| Assault   | Violent Crime (High Risk)     |
-| Narcotics | Drug Crime (Medium Risk)      |
-| Burglary  | Property Crime (High Risk)    |
 
 
 ## 📊 Power BI Dashboard
