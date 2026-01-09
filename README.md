@@ -9,44 +9,10 @@
 
 ---
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Academic Context](#academic-context)
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Power BI Dashboard](#power-bi-dashboard)
-- [Project Structure](#project-structure)
-- [Model Details](#model-details)
-- [Results](#results)
-- [Technology Stack](#technology-stack)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Contact](#contact)
-
----
 
 ## 🎯 Overview
 **CrimeScope AI** is a **production-ready web application** that predicts urban crime patterns using **machine learning**.  
 It leverages **Random Forest models** to forecast crime categories and arrest probabilities with **91.6% accuracy**, providing actionable insights to law enforcement.
-
----
-
-## 🎓 Academic Context
-
-| **Attribute** | **Details** |
-|---------------|-------------|
-| Course | Introduction to Data Science Lab |
-| Program | BSCS (6-4) |
-| University | Bahria University Lahore Campus |
-| Semester | Fall 2025 |
-| Supervisor | Mr. Muhammad Umar Tariq |
-| Dataset | Chicago Crime Dataset (2022) |
-| Records | 89,550+ |
 
 
 ---
@@ -97,6 +63,8 @@ It leverages **Random Forest models** to forecast crime categories and arrest pr
 
 ## 🏗️ System Architecture
 
+## 🏗️ System Architecture
+
 ```mermaid
 graph TB
     A[User Interface] --> B[Flask Web Server]
@@ -121,6 +89,12 @@ graph TB
     J --> C
     D --> K
     E --> K
+    
+    style A fill:#e3f2fd
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style G fill:#fff3e0
+```
 ## 🚀 Installation
 
 ### Prerequisites
@@ -145,7 +119,7 @@ venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-
+```
 ## 🗂️ Model Files
 
 | File | Size | Notes |
@@ -165,12 +139,13 @@ The SQLite database will be automatically created and initialized on the first r
 ```bash
 python check_db.py
 # Automatically creates SQLite DB if not exists
-
+```
 ## 💻 Usage
 
 ### 1. Start Flask Server
 ```bash
 python app.py
+```
 ###2. Access the Web Interface
 
 Open your browser and go to:
