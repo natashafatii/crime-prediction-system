@@ -152,9 +152,6 @@ python app.py
 
 ---
 
-### 2️⃣ Model Details
-Explain ML model specifics, categories, and feature engineering. Example:
-
 ## 🤖 Model Details
 
 - **Algorithm:** Random Forest (multi-target)
